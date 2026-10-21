@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 	tags= "@Registrations_Users" ,
-	glue= {"stepDefinition" , "hooks" },
+	glue= {"stepDefinition" ,  "hooks" },
 	features="src/test/features/TestAutomationExercice" ,
 	monochrome = false,
 	publish= true ,
